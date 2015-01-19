@@ -1,6 +1,6 @@
 {
   "name": "grunt-debug-files",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Debug files run through grunt",
   "license": "MIT",
   "repository": "sindresorhus/grunt-debug-files",
