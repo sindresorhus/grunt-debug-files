@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 			test: {
 				files: {
 					'dest/debug-files.js': 'tasks/debug-files.js',
-					'dest/bar.png': 'src/bar.png',
+					'dest/bar.png': 'src/bar.png'
 				}
 			}
 		}

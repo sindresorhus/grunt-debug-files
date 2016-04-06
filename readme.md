@@ -39,4 +39,4 @@ Just replace the task name of the task you want to debug with `debugFiles` or ad
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
