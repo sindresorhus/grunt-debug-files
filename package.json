@@ -1,42 +1,42 @@
 {
-  "name": "grunt-debug-files",
-  "version": "1.1.0",
-  "description": "Debug files run through grunt",
-  "license": "MIT",
-  "repository": "sindresorhus/grunt-debug-files",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && grunt"
-  },
-  "files": [
-    "tasks"
-  ],
-  "keywords": [
-    "gruntplugin",
-    "debug",
-    "debugging",
-    "files",
-    "file",
-    "log",
-    "print"
-  ],
-  "dependencies": {
-    "chalk": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "xo": "*"
-  },
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
-  }
+	"name": "grunt-debug-files",
+	"version": "1.1.0",
+	"description": "Debug files run through grunt",
+	"license": "MIT",
+	"repository": "sindresorhus/grunt-debug-files",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && grunt"
+	},
+	"files": [
+		"tasks"
+	],
+	"keywords": [
+		"gruntplugin",
+		"debug",
+		"debugging",
+		"files",
+		"file",
+		"log",
+		"print"
+	],
+	"dependencies": {
+		"chalk": "^2.3.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"grunt": "^1.0.1",
+		"grunt-cli": "^1.2.0",
+		"xo": "*"
+	},
+	"peerDependencies": {
+		"grunt": ">=0.4.0"
+	}
 }

@@ -1,5 +1,5 @@
 'use strict';
-module.exports = function (grunt) {
+module.exports = grunt => {
 	grunt.initConfig({
 		debugFiles: {
 			test: {
@@ -13,15 +13,15 @@ module.exports = function (grunt) {
 
 	grunt.loadTasks('tasks');
 
-	var match = false;
+	let match = false;
 
-	grunt.util.hooker.hook(grunt.log, 'writeln', function (str) {
+	grunt.util.hooker.hook(grunt.log, 'writeln', str => {
 		if (/Logged/.test(str)) {
 			match = true;
 		}
 	});
 
-	grunt.registerTask('test', function () {
+	grunt.registerTask('test', () => {
 		if (!match) {
 			grunt.warn('Tests failed');
 		}

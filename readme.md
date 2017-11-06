@@ -2,7 +2,7 @@
 
 > Debug files run through grunt
 
-![](screenshot.png)
+<img src="screenshot.png" width="568">
 
 Useful for checking what files matched the glob or make sure all files exist.
 
@@ -19,7 +19,7 @@ $ npm install --save-dev grunt-debug-files
 Just replace the task name of the task you want to debug with `debugFiles` or add a new task with the same `files` object.
 
 ```diff
- require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
+ require('load-grunt-tasks')(grunt);
 
  grunt.initConfig({
 -	existingTask: {
