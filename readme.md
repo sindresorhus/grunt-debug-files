@@ -1,4 +1,4 @@
-# grunt-debug-files [![Build Status](https://travis-ci.org/sindresorhus/grunt-debug-files.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-debug-files)
+# grunt-debug-files
 
 > Debug files run through grunt
 
